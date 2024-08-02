@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Girlfriend's Day</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <style>
+        /* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbeaff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #b30059;
+    margin-bottom: 20px;
+}
+
+section#memories {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+video {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some spacing and decoration */
+section#memories:nth-child(odd) {
+    background-color: #ffe6f2;
+}
+
+    </style>
+    <div class="container">
+        <h2>Here r some clips of our Lifetime together❤️</h2>
+        <section id="memories">
+            <h1></h1>
+            <table>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1664831731.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/VID_20230921_204353.mp4" controls></video>
+            </table>
+        </section>
+        <section id="memories">
+            <table>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1926554576.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-2079482232.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-2078694303.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1792683493.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1856364858.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1014852041.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-747774504.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1090167083.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-2054640504.mp4" controls></video>
+            </table>
+        </section>
+        <section id="memories">
+            <table>""
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-403631650.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-1689063135.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-277393364.mp4" controls></video>
+                <video src="../../Desktop/GirlFriends Day/photos/Snapchat-289856074.mp4" controls></video>
+                
+            </table>
+        </section>
+        <section id="memories">
+            <table>
+            </table>
+        </section>
+    </div>
+    <script>
+        // Smooth scroll to top functionality
+window.onscroll = function() {
+    toggleScrollToTopButton();
+};
+
+function toggleScrollToTopButton() {
+    const button = document.getElementById("scrollToTop");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+// Display a greeting message when the page loads
+window.onload = function() {
+    alert("Happy Girlfriend's Day! Enjoy these beautiful moments together. 💖");
+};
+
+    </script>
+</body>
+</html>
